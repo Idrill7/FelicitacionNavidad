@@ -75,32 +75,29 @@
         android:layout_marginEnd="@dimen/marginEndVideo"
         android:layout_marginBottom="@dimen/marginBottomVideo" />
 
-
     <ImageButton
         android:id="@+id/imageButtonPlay"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_alignStart="@+id/videoView"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="94dp"
-        android:layout_marginBottom="0dp"
+        android:layout_marginBottom="8dp"
         android:adjustViewBounds="false"
         android:background="@null"
         android:contentDescription="@string/todobtonplay"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/playbutton1" />
+        app:srcCompat="@drawable/playbutton2" />
 
     <ImageButton
         android:id="@+id/imageButtonPause"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_alignStart="@+id/videoView"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="180dp"
-        android:layout_marginBottom="0dp"
+        android:layout_marginBottom="7dp"
         android:background="@null"
         android:contentDescription="@string/todobtonpause"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/pausebutton1" />
+        app:srcCompat="@drawable/pausebutton2" />
 
 </RelativeLayout>

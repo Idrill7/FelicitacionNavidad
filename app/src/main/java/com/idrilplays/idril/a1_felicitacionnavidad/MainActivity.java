@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnPlay = (ImageButton) findViewById(R.id.imageButtonPlay);
         btnPause = (ImageButton) findViewById(R.id.imageButtonPause);
 
-
         //Le asignamos el controlador de eventos
         btnPlay.setOnClickListener(this);
         btnPause.setOnClickListener(this);
