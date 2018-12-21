@@ -112,7 +112,7 @@
         android:contentDescription="@string/todobtonpause"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/pausebutton"
-        android:background="?attr/selectableItemBackground"/>/>
+        android:background="?attr/selectableItemBackground"/>
 
     <ImageButton
         android:id="@+id/imageButtonRestart"
@@ -124,6 +124,6 @@
         android:contentDescription="@string/todobtonpause"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/restartbutton"
-        android:background="?attr/selectableItemBackground"/>/>
+        android:background="?attr/selectableItemBackground"/>
 
 </RelativeLayout>
