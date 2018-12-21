@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 video.pause();
                 break;
             case R.id.imageButtonRestart:
-                //Iniciamos el video
+                //Reiniciamos el video
                 //video.stopPlayback();
                 //video.seekTo(0);
                 video.resume();
