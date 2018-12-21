@@ -2,5 +2,6 @@
     <string name="app_name">¡Feliz Navidad!</string>
     <string name="feliz">FELIZ</string>
     <string name="navidad">NAVIDAD</string>
-    <string name="todo">TODO</string>
+    <string name="todoFondo">TODO</string>
+    <string name="todobtonplay">TODO</string>
 </resources>

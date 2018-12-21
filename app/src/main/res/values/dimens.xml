@@ -2,4 +2,9 @@
 <resources>
     <dimen name="tamanoFeliz">70sp</dimen>
     <dimen name="tamanoNavidad">80sp</dimen>
+    <dimen name="marginEndVideo">20dp</dimen>
+    <dimen name="marginTopVideo">280dp</dimen>
+    <dimen name="marginBottomVideo">98dp</dimen>
+    <dimen name="marginStartVideo">23dp</dimen>
+
 </resources>
