@@ -5,12 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 //import android.view.View;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.MediaController;
 import android.widget.TextView;
 import android.widget.VideoView;
 import android.net.Uri;
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener
+       {
     private TextView tituloFeliz;
     private TextView tituloNavidad;
     private ImageButton btnPlay;
@@ -21,6 +23,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Inicializamos la clase VideoView y le asociamos el fichero que contiene el video
+        video=(VideoView) findViewById(R.id.videoView);
+        String ruta = "android.resource://" + getPackageName() + "/" + R.raw.videoesp;
+        video.setVideoURI(Uri.parse(ruta));
+        //MediaController vidControl = new MediaController(this);
+        //video.setMediaController(vidControl);
+
 
         // Creamos un objeto TypeFace, a este le decimos que de los asset obtenga la fuente
         Typeface miFuente  = Typeface.createFromAsset(getAssets(), "The Perfect Christmas.ttf");
@@ -33,21 +43,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tituloFeliz.setTypeface(miFuente);
         tituloNavidad.setTypeface(miFuente);
 
-        // Inicializamos la clase VideoView y le asociamos el fichero que contiene el video
-        video=(VideoView) findViewById(R.id.videoView);
-        String ruta = "android.resource://" + getPackageName() + "/" + R.raw.martian_wrinkle;
-        video.setVideoURI(Uri.parse(ruta));
-
-
 
 
         //Obtengo los botones
         btnPlay = (ImageButton) findViewById(R.id.imageButtonPlay);
         btnPause = (ImageButton) findViewById(R.id.imageButtonPause);
 
+
         //Le asignamos el controlador de eventos
         btnPlay.setOnClickListener(this);
         btnPause.setOnClickListener(this);
+
     }
 
     @Override
@@ -63,6 +69,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 //Pausamos el video
                 video.pause();
                 break;
+
         }
+
     }
+
 }
