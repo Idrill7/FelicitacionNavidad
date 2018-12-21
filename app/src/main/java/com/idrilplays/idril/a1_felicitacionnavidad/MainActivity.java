@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // Creamos un objeto TypeFace, a este le decimos que de los asset obtenga la fuente
-        Typeface miFuente  = Typeface.createFromAsset(getAssets(), "christmaseve.ttf");
+        Typeface miFuente  = Typeface.createFromAsset(getAssets(), "The Perfect Christmas.ttf");
         //Obtenemos la etiqueta de texto mediante el id, la guardamos en una variable del tipo TextView
         // Lo buscamos por identificador mediante findViewById, este estara en la clase R donde estan todos los recursos
         // Hacemos un casting para que devuelva un objeto TextView y no View

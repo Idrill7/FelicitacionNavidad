@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="tamanoFeliz">40sp</dimen>
-    <dimen name="tamanoNavidad">60sp</dimen>
+    <dimen name="tamanoFeliz">70sp</dimen>
+    <dimen name="tamanoNavidad">80sp</dimen>
 </resources>
