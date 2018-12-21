@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView tituloNavidad;
     private ImageButton btnPlay;
     private ImageButton btnPause;
+    private ImageButton btnRest;
     private VideoView video;
 
     @Override
@@ -48,10 +49,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //Obtengo los botones
         btnPlay = (ImageButton) findViewById(R.id.imageButtonPlay);
         btnPause = (ImageButton) findViewById(R.id.imageButtonPause);
-
+        btnRest = (ImageButton) findViewById(R.id.imageButtonRestart);
         //Le asignamos el controlador de eventos
         btnPlay.setOnClickListener(this);
         btnPause.setOnClickListener(this);
+        btnRest.setOnClickListener(this);
 
     }
 
@@ -67,6 +69,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.imageButtonPause:
                 //Pausamos el video
                 video.pause();
+                break;
+            case R.id.imageButtonRestart:
+                //Iniciamos el video
+                //video.stopPlayback();
+                //video.seekTo(0);
+                video.resume();
+                video.start();
                 break;
 
         }
