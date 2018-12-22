@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         video.setVideoURI(Uri.parse(ruta));
         //MediaController vidControl = new MediaController(this);
         //video.setMediaController(vidControl);
-
+        // Aniadimos una imagen inicial
+        video.seekTo( 1 );
 
         // Creamos un objeto TypeFace, a este le decimos que de los asset obtenga la fuente
         Typeface miFuente  = Typeface.createFromAsset(getAssets(), "The Perfect Christmas.ttf");
@@ -70,7 +71,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnPlay.startAnimation(animacionVideo);
         btnPause.startAnimation(animacionVideo);
         btnRest.startAnimation(animacionVideo);
-
 
 
 
