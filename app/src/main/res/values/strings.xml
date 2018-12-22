@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">¡Feliz Navidad!</string>
+    <string name="app_name">Felicitación Navideña</string>
     <string name="feliz">FELIZ</string>
     <string name="navidad">NAVIDAD</string>
     <string name="todoFondo">TODO</string>
     <string name="todobtonplay">TODO</string>
     <string name="todobtonpause">TODO</string>
+    <string name="todobtonrestart">TODO</string>
 </resources>

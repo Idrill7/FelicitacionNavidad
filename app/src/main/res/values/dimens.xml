@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="tamanoFeliz">70sp</dimen>
-    <dimen name="tamanoNavidad">80sp</dimen>
+    <dimen name="tamanoNavidad">78sp</dimen>
     <dimen name="marginEndVideo">20dp</dimen>
     <dimen name="marginTopVideo">280dp</dimen>
     <dimen name="marginBottomVideo">98dp</dimen>
