@@ -19,7 +19,6 @@
 
     <rotate
         android:startOffset="3000"
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:duration="200"
         android:fromDegrees="-7"
         android:toDegrees="7"
