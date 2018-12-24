@@ -15,9 +15,9 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         android:adjustViewBounds="false"
+        android:background="@drawable/noel"
         android:contentDescription="@string/todoFondo"
-        android:scaleType="fitXY"
-        android:background="@drawable/noel" />
+        android:scaleType="fitXY" />
 
 
     <TextView
@@ -91,40 +91,39 @@
 
     <ImageButton
         android:id="@+id/imageButtonPlay"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/boton_ancho"
+        android:layout_height="@dimen/boton_alto"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="90dp"
         android:layout_marginBottom="5dp"
         android:adjustViewBounds="false"
+        android:background="@null"
         android:contentDescription="@string/todobtonplay"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/playbutton"
-        android:background="@null"/>
+        app:srcCompat="@drawable/playbutton" />
 
     <ImageButton
         android:id="@+id/imageButtonPause"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/boton_ancho"
+        android:layout_height="@dimen/boton_alto"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="180dp"
         android:layout_marginBottom="5dp"
+        android:background="@null"
         android:contentDescription="@string/todobtonpause"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/pausebutton"
-        android:background="@null"
-        />
+        app:srcCompat="@drawable/pausebutton" />
 
     <ImageButton
         android:id="@+id/imageButtonRestart"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/boton_ancho"
+        android:layout_height="@dimen/boton_alto"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="270dp"
         android:layout_marginBottom="5dp"
+        android:background="@null"
         android:contentDescription="@string/todobtonrestart"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/restartbutton"
-        android:background="@null"/>
+        app:srcCompat="@drawable/restartbutton" />
 
 </RelativeLayout>

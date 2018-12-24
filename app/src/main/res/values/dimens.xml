@@ -6,5 +6,7 @@
     <dimen name="marginTopVideo">280dp</dimen>
     <dimen name="marginBottomVideo">98dp</dimen>
     <dimen name="marginStartVideo">23dp</dimen>
+    <dimen name="boton_ancho">80dp</dimen>
+    <dimen name="boton_alto">80dp</dimen>
 
 </resources>

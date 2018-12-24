@@ -3,7 +3,6 @@ package com.idrilplays.idril.a1_felicitacionnavidad;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-//import android.view.View;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;

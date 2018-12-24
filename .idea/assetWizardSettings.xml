@@ -34,6 +34,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="00574b" />
                                       <entry key="backgroundLayerName" value="ic_launcher_background" />
                                       <entry key="foregroundImage" value="G:\OneDrive\Telefónica\Segundo año\Segundo Trimestre\Programación Multimedia y Dispositivos Móviles\UF1\Fotos felicitacion\logo.png" />
                                       <entry key="foregroundLayerName" value="ic_launcher_foreground" />
