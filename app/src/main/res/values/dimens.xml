@@ -8,5 +8,6 @@
     <dimen name="marginStartVideo">23dp</dimen>
     <dimen name="boton_ancho">80dp</dimen>
     <dimen name="boton_alto">80dp</dimen>
+    <dimen name="tamanoHo">30sp</dimen>
 
 </resources>
