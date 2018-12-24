@@ -59,7 +59,7 @@ public class SplashActivity extends AppCompatActivity implements Animation.Anima
     //Usaremos este metodo para que cuando acabe la animacion, se lance la activity main
     @Override
     public void onAnimationEnd(Animation animation) {
-    //Para cambiar de una activity a otra hay que crear in Intent
+    //Para cambiar de una activity a otra hay que crear un Intent
         //Establecemos por parametro la "ruta" del origen y el destino
         Intent intent = new Intent(SplashActivity.this,MainActivity.class);
         // Iniciamos el cambio de activity

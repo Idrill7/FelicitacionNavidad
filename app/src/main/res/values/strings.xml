@@ -2,10 +2,10 @@
     <string name="app_name">Felicitación Navideña</string>
     <string name="feliz">FELIZ</string>
     <string name="navidad">NAVIDAD</string>
-    <string name="todoFondo">TODO</string>
-    <string name="todobtonplay">TODO</string>
-    <string name="todobtonpause">TODO</string>
-    <string name="todobtonrestart">TODO</string>
-    <string name="todoFondoSplash">TODO</string>
+    <string name="todoFondo">Fondo del Main</string>
+    <string name="todobtonplay">Boton para iniciar el video</string>
+    <string name="todobtonpause">Boton para pausar el video</string>
+    <string name="todobtonrestart">Boton para reiniciar el video</string>
+    <string name="todoFondoSplash">Fondo del splash</string>
     <string name="textosplash">Ho</string>
 </resources>
