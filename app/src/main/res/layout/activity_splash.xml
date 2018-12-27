@@ -43,24 +43,24 @@
         android:scaleType="centerInside"
         app:srcCompat="@drawable/papanoelvector" />
 
-    <com.mikhaellopez.circularfillableloaders.CircularFillableLoaders
-        android:id="@+id/circularFillableLoaders"
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circularFillable"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
         android:src="@drawable/logo"
-        app:cfl_border="true"
-        app:cfl_border_width="10dp"
-        app:cfl_progress="80"
-        app:cfl_wave_amplitude="0.06"
-        app:cfl_wave_color="@color/colorBlanco" />
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="6dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#8BC34A"/>
 
     <TextView
         android:id="@+id/textHo1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/circularFillableLoaders"
+        android:layout_below="@+id/circularFillable"
         android:layout_alignParentStart="true"
         android:layout_marginStart="174dp"
         android:layout_marginTop="97dp"
@@ -73,7 +73,7 @@
         android:id="@+id/textHo2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/circularFillableLoaders"
+        android:layout_below="@+id/circularFillable"
         android:layout_alignParentStart="true"
         android:layout_marginStart="84dp"
         android:layout_marginTop="106dp"
@@ -86,7 +86,7 @@
         android:id="@+id/textHo3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/circularFillableLoaders"
+        android:layout_below="@+id/circularFillable"
         android:layout_alignParentStart="true"
         android:layout_marginStart="263dp"
         android:layout_marginTop="106dp"

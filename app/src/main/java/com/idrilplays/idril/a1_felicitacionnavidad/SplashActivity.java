@@ -28,7 +28,7 @@ public class SplashActivity extends AppCompatActivity implements Animation.Anima
         ho1 = (TextView) findViewById(R.id.textHo1);
         ho2 = (TextView) findViewById(R.id.textHo2);
         ho3 = (TextView) findViewById(R.id.textHo3);
-        logo = findViewById(R.id.circularFillableLoaders);
+        logo = findViewById(R.id.circularFillable);
         //Obtenemos la fuente
         Typeface miFuente = Typeface.createFromAsset(getAssets(), "merrysugar.otf");
         //Establecemos la fuente
