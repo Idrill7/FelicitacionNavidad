@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity"
-    >
-
+    tools:context=".SplashActivity">
 
     <ImageView
         android:id="@+id/fondoSplash"
@@ -53,8 +51,8 @@
         app:civ_border_color="#EEEEEE"
         app:civ_border_width="6dp"
         app:civ_shadow="true"
-        app:civ_shadow_radius="10"
-        app:civ_shadow_color="#8BC34A"/>
+        app:civ_shadow_color="#8BC34A"
+        app:civ_shadow_radius="10" />
 
     <TextView
         android:id="@+id/textHo1"
